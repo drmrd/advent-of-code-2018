@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aoc2018"
+version = "0.1.0"
+description = "Solutions to Advent of Code 2018 problems in the Python Data Science Stack"
+authors = ["drmrd"]
+license = "GPL-3.0+"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.15"
+pandas = "^0.23.4"
+jupyter = "^1.0"
+jupyterlab = "^0.35.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
